@@ -50,7 +50,7 @@ a {
   color: #d02932;
 }
 
-.getinvolvedlist {
+.getInvolvedList {
   list-style-type: disc;
   margin-left: 10%;
   margin-right: 10%;
@@ -58,7 +58,7 @@ a {
   background-color: #E1BED5;
 }
 
-.getinvolvedlist li {
+.getInvolvedList li {
   text-align: left;
   display: block;
   margin: 0px;
@@ -68,7 +68,7 @@ a {
   list-style-position: inside;
 }
 
-.getinvolvedlist li a {
+.getInvolvedList li a {
   text-decoration: underline;
   font-size: 24px;
   padding: 0px;
@@ -228,7 +228,7 @@ button:hover {
     -ms-transform: translate(0%, -150%);
     transform: translate(0%, -150%);
   }
-  .getinvolvedlist {
+  .getInvolvedList {
     margin-left: 5%;
     margin-right: 5%;
   }
@@ -257,7 +257,7 @@ button:hover {
   .video {
     height: 60vw;
   }
-    .getinvolvedlist {
+  .getInvolvedList {
     margin-left: 1%;
     margin-right: 1%;
   }
