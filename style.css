@@ -1,0 +1,279 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+body {
+ background-color: white; 
+}
+
+/* STYLE TEXT */
+h1 {
+  color: #d02932;
+  text-align: center;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 48px;
+}
+
+p {
+  font-size: 24px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+h2 {
+  color: #d02932;
+  font-size: 32px;
+  font-style: italic;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+.highlight {
+  color: #d02932;
+}
+
+footer {
+  text-align: center;
+  font-size: 16px;
+  color: #E1BED5;
+  margin-top: 25px;
+}
+
+a {
+  color: #d02932;
+}
+
+.getinvolvedlist {
+  list-style-type: disc;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 1%;
+  background-color: #E1BED5;
+}
+
+.getinvolvedlist li {
+  text-align: left;
+  display: block;
+  margin: 0px;
+  padding-top: 0px;
+  font-size: 24px;
+  display: list-item;
+  list-style-position: inside;
+}
+
+.getinvolvedlist li a {
+  text-decoration: underline;
+  font-size: 24px;
+  padding: 0px;
+}
+
+.tagline {
+  font-size: 60px;
+}
+
+.attribute {
+  font-size: 18px;
+  margin: 2%;
+}
+
+.factbox h2 {
+  margin-top: 2%;
+}
+
+/* STYLE IMAGES/VIDEOS */
+img {
+  max-width: 100%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #d02932;
+}
+
+.video {
+  width: 100%;
+  height: 30vw;
+}
+
+/* STYLE NAV BAR */
+nav {
+  background-color: #E1BED5;
+  margin-bottom: 10px;
+}
+
+h4 {
+  float: left;
+  color: #d02932;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 36px;
+  padding-top: 12px;
+  padding-left: 20px;
+}
+
+h4 a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  padding: 18px;
+  text-align: right;
+}
+
+li {
+  display: inline;
+  margin: 12px;
+  padding-top: 20px;
+}
+
+li a {
+  text-decoration: none;
+  color: #d02932;
+  font-weight: 300;
+  font-size: 24px;
+  padding: 12px;
+}
+
+li a:hover {
+  opacity: 0.7;
+}
+
+.pageopened {
+  text-decoration: none;
+  color: #d02932;
+  font-weight: 700;
+  font-size: 24px;
+  padding: 12px;
+}
+
+/* STYLE BUTTONS */
+button {
+  border: none;
+  color: #d02932;
+  background-color: #E1BED5;
+  padding: 12px;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 800;
+  margin: 2%;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+/* FLEXBOX */
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.flex-item {
+  flex-basis: 100%;
+  margin: 1%;
+}
+
+.flex-text1 {
+  position: absolute;
+  top: 50%;
+  -ms-transform: translate(0%, -50%);
+  transform: translate(0%, -50%);
+}
+
+.flex-text2 {
+  position: absolute;
+  top: 50%;
+  -ms-transform: translate(0%, -50%);
+  transform: translate(0%, -50%);
+}
+
+/* FACT GENERATOR */
+.factbox {
+  margin: 2%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #E1BED5;
+}
+
+/* BREAKPOINTS */
+@media screen and (max-width: 1189px) {
+  .flex-text1 {
+    position: absolute;
+    top: 50%;
+    -ms-transform: translate(0%, -100%);
+    transform: translate(0%, -100%);
+  }
+  .flex-text2 {
+    position: absolute;
+    top: 50%;
+    -ms-transform: translate(0%, -70%);
+    transform: translate(0%, -70%);
+  }
+}
+@media screen and (max-width: 1040px) {
+  .tagline {
+    font-size: 36px;
+  }
+  .flex-text1 {
+    position: absolute;
+    top: 50%;
+    -ms-transform: translate(0%, -150%);
+    transform: translate(0%, -150%);
+  }
+  .getinvolvedlist {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  p {
+    margin-left: 5%;
+    margin-right: 5%;             
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .flex-container {
+    flex-wrap: wrap;
+  }
+  .flex-text1 {
+    position: static;
+    top: 0%;
+    -ms-transform: translate(0%, 0%);
+    transform: translate(0%, 0%);
+  }
+  .flex-text2 {
+    position: static;
+    top: 0%;
+    -ms-transform: translate(0%, 0%);
+    transform: translate(0%, 0%);
+  }
+  .video {
+    height: 60vw;
+  }
+    .getinvolvedlist {
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+  p {
+    margin-left: 1%;
+    margin-right: 1%;             
+  }
+  h4 {
+    float: none;
+  }
+  li {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+  }
+  .pageopened {
+    padding: 0px;
+  }
+}
